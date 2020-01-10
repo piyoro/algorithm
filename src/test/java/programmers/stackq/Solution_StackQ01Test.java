@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import algorithm.programmers.stackq.Solution_StackQ01;
 
-public class Solution_StaackQ01Test {
+public class Solution_StackQ01Test {
 
 	Solution_StackQ01 st01;
 
