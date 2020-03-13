@@ -2,6 +2,15 @@ package algorithm.my;
 
 import java.util.Arrays;
 
+/**
+ * @author : piyoro
+ * @date : 2020. 3. 13.
+ * @desc :
+ * 
+ * <pre>
+ * 입력한 숫자사이의 소수구하기 _ 에리스토테네스 체
+ * </pre>
+ */
 public class EratostenesPrime {
 
 	public static void main(String[] args) {
