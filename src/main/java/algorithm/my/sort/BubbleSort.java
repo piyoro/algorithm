@@ -8,21 +8,24 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		// 정렬을 위한 정수 배열 선언
-		int[] arr = new int[5];
+		int[] arr = new int[] { 80, 63, 43, 48, 12 };
 
 		int len = arr.length, tmp = 0;
 		Random r = new Random();
 		// 배열의 값을 랜덤 정수로 할당
 		for (int i = 0; i < len; i++) {
-			arr[i] = r.nextInt(100);
+			// arr[i] = r.nextInt(100);
 		}
+		System.out.println();
 		System.out.println("  배열 원본");
 		System.out.println("  " + Arrays.toString(arr));
 		System.out.println();
 		for (int i = len; i > 0; i--) {
 
 			for (int j = 0; j < i - 1; j++) {
-				// System.out.println("\t" + Arrays.toString(arr));
+				System.out.println("\t" + Arrays.toString(arr));
+				System.out.println();
+				System.out.println();
 				// 오름차순, 배열의 현재 인덱스가 가리키는 값과
 				// 다음 인덱스가 가리키는 값을 비교하여 교체
 				if (arr[j] > arr[j + 1]) {
@@ -32,9 +35,14 @@ public class BubbleSort {
 				}
 			}
 		}
+		System.out.println("\t" + Arrays.toString(arr));
+		System.out.println();
+		System.out.println();
 		System.out.println();
 		System.out.println("  오름차순 버블정렬");
 		System.out.println("  " + Arrays.toString(arr));
+		System.out.println();
+		System.out.println();
 
 		// 파라미터를 이용한 오름/내림 정렬 구분
 
