@@ -2,6 +2,15 @@ package algorithm.my;
 
 import java.util.stream.IntStream;
 
+/**
+ * @author : piyoro
+ * @date : 2020. 3. 13.
+ * @desc :
+ * 
+ * <pre>
+ * 입력한 숫자사이의 소수구하기 _ 제곱근
+ * </pre>
+ */
 public class Prime {
 
 	public static void main(String[] args) {
